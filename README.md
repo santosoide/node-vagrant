@@ -25,4 +25,12 @@ $ vagrant ssh
 ```
 
 # Folder Sharing
-```app/```
+```
+app/ to ~/app
+```
+
+# How to access
+
+```
+localhost:3000
+```
