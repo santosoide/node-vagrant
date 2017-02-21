@@ -17,6 +17,12 @@ nvm use 6.9.4
 echo ">>> Install Yarn"
 npm install -g yarn
 
+echo ">>> Install Gulp"
+npm install -g gulp
+
+echo ">>> Install http server"
+npm install -g http-server
+
 echo ">>> Installing Nodemon"
 npm install -g nodemon
 
