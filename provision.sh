@@ -14,6 +14,9 @@ nvm install 6.9.4
 echo ">>> Use nodejs version 6.9.4"
 nvm use 6.9.4
 
+echo ">>> Install Yarn"
+npm install -g yarn
+
 echo ">>> Installing Nodemon"
 npm install -g nodemon
 
