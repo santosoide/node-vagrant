@@ -8,11 +8,11 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
-echo ">>> Installing nodejs version 5.10.1"
-nvm install 5.10.1
+echo ">>> Installing nodejs version 6.9.4"
+nvm install 6.9.4
 
-echo ">>> Use nodejs version 5.10.1"
-nvm use 5.10.1
+echo ">>> Use nodejs version 6.9.4"
+nvm use 6.9.4
 
 echo ">>> Installing Nodemon"
 npm install -g nodemon
